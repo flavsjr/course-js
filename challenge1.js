@@ -4,7 +4,7 @@ var alturaMark = 1.69; // Em metros
 var massaJohn = 92;
 var alturaJohn = 1.96;
 
-var IMCMark = massaMark / (alturaMark * alturaJohn);
+var IMCMark = massaMark / (alturaMark ** 2); // outra forma de fazer
 var IMCJohn = massaJohn / (alturaJohn * alturaJohn);
 
 console.log("IMC do Mark:", IMCMark);
